@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="scripts.js/main.js" type="module"></script>
+    <script src="scripts.js/main.js" type="module" defer></script>
     
     <title>Quiz interativo</title>
 </head>
@@ -26,7 +26,16 @@
                 <button id="reiniciar" onclick="reiniciarQuiz()">Reiniciar</button>
             </div>
         </div>
-    
+        
+        <!--pop up -->
+        <div id="modalResultado" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>Fim do Quiz!</h2>
+                <p id="resultadoMensagem"></p>
+                <button onclick="reiniciarQuiz()">Reiniciar</button>
+            </div>
+        </div>
 </body>
 
 </html>
