@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts.js/main.js" type="module"></script>
+    <title>Quiz interativo</title>
+</head>
+<body>
+    <body>
+        <div class="quiz-container">
+            <div class="quiz-question">
+                <span id="pergunta"></span>
+            </div>
+            
+            <div class="quiz-options">
+                <button class="option" id="opcao1" onclick="verificarResposta(0)"></button>
+                <button class="option" id="opcao2" onclick="verificarResposta(1)"></button>
+                <button class="option" id="opcao3" onclick="verificarResposta(2)"></button>
+                <button class="option" id="opcao4" onclick="verificarResposta(3)"></button>
+            </div>
+    
+            <div class="quiz-footer">
+                <span id="pontuacao">Pontuação: 0</span>
+                <button id="reiniciar" onclick="reiniciarQuiz()">Reiniciar</button>
+            </div>
+        </div>
+    
+</body>
+</html>
