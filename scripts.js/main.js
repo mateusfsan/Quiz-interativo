@@ -45,8 +45,18 @@ function resultado (){
 
     const closeModal = document.getElementById("closeModal");
     closeModal.onclick = () => modal.style.display = "none";
+}
+
+
+
+
+
+function fecharModal (){
+    const reiniciarModal = document.getElementById("modalResultado");
+    reiniciarModal.style.display ="none";
 
 }
+
 
 window.reiniciarQuiz = function reiniciarQuiz() {
 
@@ -57,7 +67,10 @@ window.reiniciarQuiz = function reiniciarQuiz() {
     perguntaAtual = 0;
     pontuacao = 0;
     carregarPergunta();
+    fecharModal();
 }
 
+const reiniciarButton = document.getElementById("reiniciar");
+reiniciarButton.addEventListener("click", reiniciarQuiz);
 
 carregarPergunta();

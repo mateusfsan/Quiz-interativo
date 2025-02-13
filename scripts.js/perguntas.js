@@ -25,13 +25,13 @@
         respostaCorreta: 1
     },
     {
-        pergunta: "Qual é o nome da professora de Poções durante os primeiros anos de Harry em Hogwarts?",
+        pergunta: "Qual é o nome do professor(a) de Poções durante os primeiros anos de Harry em Hogwarts?",
         respostas: [" Pomona Sprout", "Dolores Umbridge", " Severus Snape", " Gilderoy Lockhart"],
         respostaCorreta: 2
     },
     {
         pergunta: "Quem é o fundador da casa Grifinória?",
-        respostas: [" Helga Hufflepuff", " Rowena Ravenclaw", "  Godric Gryffindor", " G Salazar Slytherin"],
+        respostas: [" Helga Hufflepuff", " Rowena Ravenclaw", " Godric Gryffindor", " G Salazar Slytherin"],
         respostaCorreta: 2
     },
     {
